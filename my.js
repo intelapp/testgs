@@ -22,7 +22,7 @@ fetch(url, {
     },
     redirect: 'follow', // manual, *follow, error
     //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    body: JSON.stringify({"first name":"Ili","last":"Safuraa","phone":0192466751}) // body data type must match "Content-Type" header
+    body: JSON.stringify({"first":"Ili","last":"Safuraa","phone":0192466751}) // body data type must match "Content-Type" header
   });
 }
 
